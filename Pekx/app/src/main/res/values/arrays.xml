@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- http://joerg-richter.fuyosoft.com/?p=100 -->
+    <array name="scenesArea_0">
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+    </array>
+    <array name="scenesArea_1">
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+    </array>
+    <array name="scenesArea_2">
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+        <item>"AUSOVENIA"</item>
+    </array>
+</resources>

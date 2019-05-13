@@ -1,0 +1,114 @@
+{
+  "saves": [
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    },
+    {
+      "currentAreaId": 0,
+      "currentSceneId": 0,
+      "characterName": ""
+    }
+  ],
+  "scenesArea": [
+    {
+      "scenesId": [
+        {
+          "sceneTitle": "",
+          "sceneImageId": "",
+          "sceneText": "",
+          "sceneChar1Id": "",
+          "sceneChar2Id": "",
+          "sceneOption1Txt": "",
+          "sceneOption1Area": 0,
+          "sceneOption1SceneId": 0,
+          "sceneOption2Txt": "",
+          "sceneOption2Area": 0,
+          "sceneOption2SceneId": 0,
+          "defaultNextArea": 0,
+          "defaultNextScene": 0
+        },
+        {
+          "sceneTitle": "",
+          "sceneImageId": "",
+          "sceneText": "",
+          "sceneChar1Id": "",
+          "sceneChar2Id": "",
+          "sceneOption1Txt": "",
+          "sceneOption1Area": 0,
+          "sceneOption1SceneId": 0,
+          "sceneOption2Txt": "",
+          "sceneOption2Area": 0,
+          "sceneOption2SceneId": 0,
+          "defaultNextArea": 0,
+          "defaultNextScene": 0
+        }
+      ]
+    },
+    {
+      "scenesId": [
+        {
+          "sceneTitle": "",
+          "sceneImageId": "",
+          "sceneText": "",
+          "sceneChar1Id": "",
+          "sceneChar2Id": "",
+          "sceneOption1Txt": "",
+          "sceneOption1Area": 0,
+          "sceneOption1SceneId": 0,
+          "sceneOption2Txt": "",
+          "sceneOption2Area": 0,
+          "sceneOption2SceneId": 0,
+          "defaultNextArea": 0,
+          "defaultNextScene": 0
+        },
+        {
+          "sceneTitle": "",
+          "sceneImageId": "",
+          "sceneText": "",
+          "sceneChar1Id": "",
+          "sceneChar2Id": "",
+          "sceneOption1Txt": "",
+          "sceneOption1Area": 0,
+          "sceneOption1SceneId": 0,
+          "sceneOption2Txt": "",
+          "sceneOption2Area": 0,
+          "sceneOption2SceneId": 0,
+          "defaultNextArea": 0,
+          "defaultNextScene": 0
+        }
+      ]
+    }
+  ]
+}
