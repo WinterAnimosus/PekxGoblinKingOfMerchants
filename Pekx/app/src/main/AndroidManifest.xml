@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SaveActivity"
+            android:name=".SaveLoadActivity"
             android:screenOrientation="landscape" />
         <activity
             android:name=".MenuActivity"
