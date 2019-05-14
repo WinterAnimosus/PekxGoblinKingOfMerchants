@@ -28,6 +28,7 @@ public class MainActivity extends BaseActivity {
         final Button buttonLess = (Button) findViewById(R.id.buttonLess);
         final Button buttonMore = (Button) findViewById(R.id.buttonMore);
         final Button textSizeButton = (Button) findViewById(R.id.textSizeButton);
+        final Button musicButton = (Button) findViewById(R.id.musicToggle);
 
 //      SWAPS TO PLAY SCREEN
         newGame.setOnClickListener(new View.OnClickListener() {
@@ -87,6 +88,15 @@ public class MainActivity extends BaseActivity {
                 textSizeButton.setText("TEXT SIZE: " + fontSet);
             }
         });
+
+//      Mutes the music
+        musicButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 }
 

@@ -14,7 +14,7 @@ public class BaseActivity extends AppCompatActivity {
             // Make sure to use this key when you set the value in SharedPreferences.
             // We specify "12" as the default value, if it does not exist.
             String fontSizePref = settings.getString("FONT_SIZE", "12");
-
+            boolean musicOnPref = settings.getBoolean("MUSIC_ON", true);
             // Select the proper theme ID.
             // These will correspond to your theme names as defined in themes.xml.
             int themeID = R.style.FontSize8;
