@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10000"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/saveOneButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="Button"
+                    tools:text="No Save" />
+
+                <Button
+                    android:id="@+id/saveThreeButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+                <Button
+                    android:id="@+id/saveFiveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+                <Button
+                    android:id="@+id/saveSevenButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/saveTwoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="17.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+                <Button
+                    android:id="@+id/saveFourButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="17.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+                <Button
+                    android:id="@+id/saveSixButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="17.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+                <Button
+                    android:id="@+id/saveEightButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="17.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="3"
+                    android:text="No Save" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.5dp"
+            android:layout_marginRight="17.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Button"
+            tools:text="Back" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

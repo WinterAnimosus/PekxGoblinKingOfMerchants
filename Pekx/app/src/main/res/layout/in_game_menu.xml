@@ -31,7 +31,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/savenewButton"
+                android:id="@+id/saveGame"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17.5dp"
@@ -42,7 +42,7 @@
                 android:text="Save Game" />
 
             <Button
-                android:id="@+id/loadButton"
+                android:id="@+id/loadGame"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17.5dp"
@@ -53,7 +53,7 @@
                 android:text="Load Game" />
 
             <Button
-                android:id="@+id/resumeButton"
+                android:id="@+id/resumeGame"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17.5dp"
@@ -77,7 +77,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button21"
+                    android:id="@+id/buttonLess"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="7.5dp"
@@ -99,7 +99,7 @@
                     android:text="Text Size: 5" />
 
                 <Button
-                    android:id="@+id/button22"
+                    android:id="@+id/buttonMore"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="0dp"
@@ -111,7 +111,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/musicToggleButton"
+                android:id="@+id/musicToggle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="7.5dp"
@@ -122,7 +122,7 @@
                 android:text="Music: ON" />
 
             <Button
-                android:id="@+id/quitButton"
+                android:id="@+id/quitGame"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="7.5dp"
