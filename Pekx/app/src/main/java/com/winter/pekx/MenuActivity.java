@@ -20,6 +20,13 @@ public class MenuActivity extends BaseActivity {
         getSupportActionBar().hide();
 //      Sets up buttons
         configureButtons();
+        setButtonText();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setButtonText();
     }
 
     private void configureButtons(){
@@ -112,8 +119,42 @@ public class MenuActivity extends BaseActivity {
         musicButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                SharedPreferences settings =
+                        getSharedPreferences("com.winter.pekx", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = settings.edit();
+                Boolean musicTog = settings.getBoolean("MUSIC_ON", true);
+                if (musicTog == true)
+                    musicTog = false;
+                else
+                    musicTog = true;
+                editor.putBoolean("MUSIC_ON", musicTog);
+                editor.apply();
 
+                String musicText;
+                if(musicTog == true)
+                    musicText = "ON";
+                else
+                    musicText = "OFF";
+                musicButton.setText("Music: " + musicText);
             }
         });
+    }
+
+    public void setButtonText()
+    {
+        final Button textSizeButton = (Button) findViewById(R.id.textSizeButton);
+        final Button musicButton = (Button) findViewById(R.id.musicToggle);
+
+        SharedPreferences settings = getSharedPreferences("com.winter.pekx", Context.MODE_PRIVATE);
+        String fontSize = settings.getString("FONT_SIZE", "12");
+        textSizeButton.setText("TEXT SIZE: " + fontSize);
+
+        Boolean musicTog = settings.getBoolean("MUSIC_ON", true);
+        String musicText;
+        if(musicTog == true)
+            musicText = "ON";
+        else
+            musicText = "OFF";
+        musicButton.setText("Music: " + musicText);
     }
 }

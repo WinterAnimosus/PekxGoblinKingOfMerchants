@@ -19,6 +19,13 @@ public class MainActivity extends BaseActivity {
         getSupportActionBar().hide();
 //      Configures the buttons in the method below
         configureButtons();
+        setButtonText();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setButtonText();
     }
 
     private void configureButtons(){
@@ -93,10 +100,49 @@ public class MainActivity extends BaseActivity {
         musicButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                SharedPreferences settings =
+                        getSharedPreferences("com.winter.pekx", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = settings.edit();
 
+//              TOGGLES MUSIC ON OR OFF
+                Boolean musicTog = settings.getBoolean("MUSIC_ON", true);
+                if (musicTog == true)
+                    musicTog = false;
+                else
+                    musicTog = true;
+                editor.putBoolean("MUSIC_ON", musicTog);
+                editor.apply();
+
+//              SETS MUSIC BUTTON TEXT
+                String musicText;
+                if(musicTog == true)
+                    musicText = "ON";
+                else
+                    musicText = "OFF";
+                musicButton.setText("Music: " + musicText);
             }
         });
 
+    }
+//  SETS THE TEXT OF BUTTONS
+    public void setButtonText()
+    {
+        final Button textSizeButton = (Button) findViewById(R.id.textSizeButton);
+        final Button musicButton = (Button) findViewById(R.id.musicToggle);
+
+//      SETS TEXT SIZE BUTTON
+        SharedPreferences settings = getSharedPreferences("com.winter.pekx", Context.MODE_PRIVATE);
+        String fontSize = settings.getString("FONT_SIZE", "12");
+        textSizeButton.setText("TEXT SIZE: " + fontSize);
+
+//      SET MUSIC BUTTON
+        Boolean musicTog = settings.getBoolean("MUSIC_ON", true);
+        String musicText;
+        if(musicTog == true)
+            musicText = "ON";
+        else
+            musicText = "OFF";
+        musicButton.setText("Music: " + musicText);
     }
 }
 
