@@ -53,51 +53,52 @@ public class JSONInfo {
 
         return jsonString;
     }
-    public String parseJSON(String jsonString){
+    GameObject game = new GameObject();
+    public String parseJSON(String jsonString, int save, int area, int scene){
         try {
             JSONObject jsonObject = new JSONObject(jsonString);
             JSONArray savesArray = jsonObject.getJSONArray("saves");
+            JSONArray areasArray = jsonObject.getJSONArray("scenesArea");
+            JSONArray scenesArray = jsonObject.getJSONArray("scenesId");
             String jsonIds = "";
-            GameObject game = new GameObject();
-            int save = 0;
                 //parsing for the save properties
                 game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("currentAreaId"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("currentSceneId"));
+                game.setCurrentSceneId(savesArray.getJSONObject(save).getInt("currentSceneId"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("characterName"));
+                game.setCharacterName(savesArray.getJSONObject(save).getInt("characterName"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("saveTimeDate"));
+                game.setSaveTimeDate(savesArray.getJSONObject(save).getInt("saveTimeDate"));
                 //parsing for the scene properties
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneTitle"));
+                game.setsceneTitle(areasArray.getJSONObject(area).scenesArray.getJSONObject(scene).getInt("sceneTitle"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneImageId"));
+                game.setSceneImageId(scenesArray.getJSONObject(scene).getInt("sceneImageId"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneText1"));
+                game.setSceneText1(scenesArray.getJSONObject(scene).getInt("sceneText1"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneText2"));
+                game.setSceneText2(scenesArray.getJSONObject(scene).getInt("sceneText2"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneText3"));
+                game.setSceneText3(scenesArray.getJSONObject(scene).getInt("sceneText3"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneChar1Id"));
+                game.setSceneChar1Id(scenesArray.getJSONObject(scene).getInt("sceneChar1Id"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneChar2Id"));
+                game.setSceneChar2Id(scenesArray.getJSONObject(scene).getInt("sceneChar2Id"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneOption1Txt"));
+                game.setSceneOption1Txt(scenesArray.getJSONObject(scene).getInt("sceneOption1Txt"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneOption1Area"));
+                game.setSceneOption1Area(scenesArray.getJSONObject(scene).getInt("sceneOption1Area"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneOption1SceneId"));
+                game.setSceneOption1SceneId(scenesArray.getJSONObject(scene).getInt("sceneOption1SceneId"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneOption2Txt"));
+                game.setSceneOption2Txt(scenesArray.getJSONObject(scene).getInt("sceneOption2Txt"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneOption2Area"));
+                game.setSceneOption2Area(scenesArray.getJSONObject(scene).getInt("sceneOption2Area"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("sceneOption2SceneId"));
+                game.setSceneOption2SceneId(scenesArray.getJSONObject(scene).getInt("sceneOption2SceneId"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("defaultNextArea"));
+                game.setDefaultNextArea(scenesArray.getJSONObject(scene).getInt("defaultNextArea"));
 
-                game.setCurrentAreaId(savesArray.getJSONObject(save).getInt("defaultNextScene"));
+                game.setDefaultNextScene(scenesArray.getJSONObject(scene).getInt("defaultNextScene"));
 
             return "\n"+jsonIds;
         } catch (JSONException e) {
@@ -193,13 +194,13 @@ public class JSONInfo {
             this.sceneText3 = sceneText3;
         }
 //        SceneCharId
-        public Integer sceneCharId;
+        public Integer sceneChar1Id;
 
-        public Integer getSceneCharId(){
-            return sceneCharId;
+        public Integer getSceneChar1Id(){
+            return sceneChar1Id;
         }
-        public void  setSceneCharId(Integer SceneCharId ) {
-            this.sceneCharId = sceneCharId;
+        public void  setSceneChar1Id(Integer SceneChar1Id ) {
+            this.sceneChar1Id = sceneChar1Id;
         }
 //        SceneChar2Id
         public Integer sceneChar2Id;
