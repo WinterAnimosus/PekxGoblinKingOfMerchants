@@ -18,6 +18,7 @@ public class PlayActivity extends BaseActivity {
         getSupportActionBar().hide();
 //      Sets up buttons
         configureButtons();
+
     }
 
     private void configureButtons(){
@@ -31,4 +32,10 @@ public class PlayActivity extends BaseActivity {
             }
         });
     }
+
+    private void setScene() {
+        JSONInfo jsonInfo = new JSONInfo(getApplicationContext());
+        jsonInfo.getVariables("all");
+    }
+
 }

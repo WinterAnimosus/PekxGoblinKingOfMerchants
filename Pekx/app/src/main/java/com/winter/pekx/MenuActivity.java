@@ -58,7 +58,7 @@ public class MenuActivity extends BaseActivity {
         //      SWAPS TO LOAD / SAVE SCREEN WITH SPECIAL DATA PASSED THROUGH
         final Intent intentL = new Intent(MenuActivity.this, SaveLoadActivity.class);
         intentL.putExtra("From", "inGameMenu");
-        intentL.putExtra("LoadSave", "Load");
+        intentL.putExtra("LoadSave", "load");
         loadGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +67,7 @@ public class MenuActivity extends BaseActivity {
         });
         final Intent intentS = new Intent(MenuActivity.this, SaveLoadActivity.class);
         intentS.putExtra("From", "inGameMenu");
-        intentS.putExtra("LoadSave", "Save");
+        intentS.putExtra("LoadSave", "save");
         loadGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

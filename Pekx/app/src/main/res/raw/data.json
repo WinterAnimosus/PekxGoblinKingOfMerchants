@@ -1,38 +1,38 @@
 {
   "saves": [
     {
-      "currentAreaId": 0,
-      "currentSceneId": 0,
+      "currentAreaId": "0",
+      "currentSceneId": "0",
       "characterName": "",
       "saveTimeDate": ""
     },
     {
-      "currentAreaId": 0,
-      "currentSceneId": 0,
+      "currentAreaId": "0",
+      "currentSceneId": "0",
       "characterName": "",
       "saveTimeDate": ""
     },
     {
-      "currentAreaId": 0,
-      "currentSceneId": 0,
+      "currentAreaId": "0",
+      "currentSceneId": "0",
       "characterName": "",
       "saveTimeDate": ""
     },
     {
-      "currentAreaId": 0,
-      "currentSceneId": 0,
+      "currentAreaId": "0",
+      "currentSceneId": "0",
       "characterName": "",
       "saveTimeDate": ""
     },
     {
-      "currentAreaId": 0,
-      "currentSceneId": 0,
+      "currentAreaId": "0",
+      "currentSceneId": "0",
       "characterName": "",
       "saveTimeDate": ""
     },
     {
-      "currentAreaId": 0,
-      "currentSceneId": 0,
+      "currentAreaId": "0",
+      "currentSceneId": "0",
       "characterName": "",
       "saveTimeDate": ""
     }
@@ -49,13 +49,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 0,
-          "defaultNextScene": 1
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "0",
+          "defaultNextScene": "1"
         },
         {
           "sceneTitle": "Intro: The Forest",
@@ -66,13 +66,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 0,
-          "defaultNextScene": 2
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "0",
+          "defaultNextScene": "2"
         },
         {
      "sceneTitle": "Intro: The Forest",
@@ -83,13 +83,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 1,
-          "defaultNextScene": 0
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "1",
+          "defaultNextScene": "0"
 		}
       ]
     },
@@ -104,13 +104,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 1,
-          "defaultNextScene": 1
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "1",
+          "defaultNextScene": "1"
         },
         {
           "sceneTitle": "The Exile",
@@ -121,13 +121,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 2,
-          "defaultNextScene": 0
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "2",
+          "defaultNextScene": "0"
         }
       ]
     },
@@ -142,13 +142,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 2,
-          "defaultNextScene": 1
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "2",
+          "defaultNextScene": "1"
         },
         {
           "sceneTitle": "The Town of Calaria",
@@ -159,13 +159,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 2,
-          "defaultNextScene": 2
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "2",
+          "defaultNextScene": "2"
         },
         {
      "sceneTitle": "The Town of Calaria",
@@ -176,13 +176,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 2,
-          "defaultNextScene": 3
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "2",
+          "defaultNextScene": "3"
 		},
 		{
      "sceneTitle": "The Town of Calaria",
@@ -193,13 +193,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 2,
-          "defaultNextScene": 4
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "2",
+          "defaultNextScene": "4"
 		},
 		{
      "sceneTitle": "The Town of Calaria",
@@ -210,13 +210,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 0
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "0"
 		}
       ]
     },
@@ -231,13 +231,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 1
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "1"
         },
         {
           "sceneTitle": "The Mayor",
@@ -248,13 +248,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 2
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "2"
         },
         {
      "sceneTitle": "The Mayor",
@@ -265,13 +265,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 3
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "3"
 		},
 		{
      "sceneTitle": "The Mayor",
@@ -282,13 +282,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 4
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "4"
 		},
 		{
      "sceneTitle": "The Mayor",
@@ -299,13 +299,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 5
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "5"
 		},
 		{
      "sceneTitle": "The Mayor",
@@ -316,13 +316,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 3,
-          "defaultNextScene": 6
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "3",
+          "defaultNextScene": "6"
 		},
 		{
      "sceneTitle": "The Mayor",
@@ -333,13 +333,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 4,
-          "defaultNextScene": 0
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "4",
+          "defaultNextScene": "0"
 		}
       ]
     },
@@ -354,13 +354,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 4,
-          "defaultNextScene": 1
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "4",
+          "defaultNextScene": "1"
         },
         {
           "sceneTitle": "Your First Trade",
@@ -371,13 +371,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 4,
-          "defaultNextScene": 2
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "4",
+          "defaultNextScene": "2"
         },
         {
      "sceneTitle": "Your First Trade",
@@ -388,13 +388,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 4,
-          "defaultNextScene": 3
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "4",
+          "defaultNextScene": "3"
 		},
 		{
      "sceneTitle": "Your First Trade",
@@ -405,13 +405,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 5,
-          "defaultNextScene": 0
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "5",
+          "defaultNextScene": "0"
 		}
       ]
     },
@@ -426,13 +426,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 5,
-          "sceneOption1SceneId": 1,
+          "sceneOption1Area": "5",
+          "sceneOption1SceneId": "1",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 5,
-          "sceneOption2SceneId": 2,
-          "defaultNextArea": 0,
-          "defaultNextScene": 0
+          "sceneOption2Area": "5",
+          "sceneOption2SceneId": "2",
+          "defaultNextArea": "0",
+          "defaultNextScene": "0"
         },
         {
           "sceneTitle": "The Tavern",
@@ -443,13 +443,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 5,
-          "defaultNextScene": 3
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "5",
+          "defaultNextScene": "3"
         },
         {
      "sceneTitle": "The Tavern",
@@ -460,13 +460,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 5,
-          "defaultNextScene": 3
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "5",
+          "defaultNextScene": "3"
 		},
 		{
      "sceneTitle": "The Tavern",
@@ -477,13 +477,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 5,
-          "defaultNextScene": 4
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "5",
+          "defaultNextScene": "4"
 		},
 		{
      "sceneTitle": "The Tavern",
@@ -494,13 +494,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 5,
-          "defaultNextScene": 5
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "5",
+          "defaultNextScene": "5"
 		},
 		{
      "sceneTitle": "The Tavern",
@@ -511,13 +511,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 0
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "0"
 		},
       ]
     },
@@ -532,13 +532,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 1
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "1"
         },
         {
           "sceneTitle": "The Goblins",
@@ -549,13 +549,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 2
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "2"
         },
         {
      "sceneTitle": "The Goblins",
@@ -566,13 +566,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 3
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "3"
 		},
 		{
      "sceneTitle": "The Goblins",
@@ -583,13 +583,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 4
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "4"
 		},
 		{
      "sceneTitle": "The Goblins",
@@ -600,13 +600,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 5
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "5"
 		},
 		{
      "sceneTitle": "The Goblins",
@@ -617,13 +617,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 6
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "6"
 		},
 		{
      "sceneTitle": "The Goblins",
@@ -634,13 +634,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": 6,
-          "defaultNextScene": 7
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "6",
+          "defaultNextScene": "7"
 		},
 		{
      "sceneTitle": "The End",
@@ -651,13 +651,13 @@
           "sceneChar1Id": "",
           "sceneChar2Id": "",
           "sceneOption1Txt": "",
-          "sceneOption1Area": 0,
-          "sceneOption1SceneId": 0,
+          "sceneOption1Area": "0",
+          "sceneOption1SceneId": "0",
           "sceneOption2Txt": "",
-          "sceneOption2Area": 0,
-          "sceneOption2SceneId": 0,
-          "defaultNextArea": end,
-          "defaultNextScene": end
+          "sceneOption2Area": "0",
+          "sceneOption2SceneId": "0",
+          "defaultNextArea": "0",
+          "defaultNextScene": "0"
 		}
       ]
     }

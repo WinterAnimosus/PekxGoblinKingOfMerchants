@@ -37,22 +37,25 @@ public class MainActivity extends BaseActivity {
         final Button textSizeButton = (Button) findViewById(R.id.textSizeButton);
         final Button musicButton = (Button) findViewById(R.id.musicToggle);
 
-//      SWAPS TO PLAY SCREEN
+//      SWAPS TO NEW SCREEN WITH SPECIAL DATA PASSED THROUGH
+        final Intent intentN = new Intent(MainActivity.this, SaveLoadActivity.class);
+        intentN.putExtra("From", "MainMenu");
+        intentN.putExtra("LoadSave", "new");
         newGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, PlayActivity.class));
+                startActivity(intentN);
             }
         });
 
 //      SWAPS TO LOAD SCREEN WITH SPECIAL DATA PASSED THROUGH
-        final Intent intent = new Intent(MainActivity.this, SaveLoadActivity.class);
-        intent.putExtra("From", "MainMenu");
-        intent.putExtra("LoadSave", "Load");
+        final Intent intentL = new Intent(MainActivity.this, SaveLoadActivity.class);
+        intentL.putExtra("From", "MainMenu");
+        intentL.putExtra("LoadSave", "load");
         loadGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(intent);
+                startActivity(intentL);
             }
         });
 
