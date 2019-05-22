@@ -37,9 +37,12 @@ public class SaveLoadActivity extends BaseActivity {
         final String originFrom = originFromP;
         final String saveLoadNew = saveLoadNewP;
 
+        final Intent intent = new Intent(SaveLoadActivity.this, PlayActivity.class);
+
         saveOneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent.putExtra("save", "0");
                 jsonInfo.loadJSON(0,saveLoadNew);
                 startActivity(new Intent(SaveLoadActivity.this, PlayActivity.class));
             }
@@ -48,6 +51,7 @@ public class SaveLoadActivity extends BaseActivity {
         saveTwoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent.putExtra("save", "1");
                 jsonInfo.loadJSON(1,saveLoadNew);
                 startActivity(new Intent(SaveLoadActivity.this, PlayActivity.class));
             }
@@ -55,6 +59,7 @@ public class SaveLoadActivity extends BaseActivity {
         saveThreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent.putExtra("save", "2");
                 jsonInfo.loadJSON(2,saveLoadNew);
                 startActivity(new Intent(SaveLoadActivity.this, PlayActivity.class));
             }
@@ -62,6 +67,7 @@ public class SaveLoadActivity extends BaseActivity {
         saveFourButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent.putExtra("save", "3");
                 jsonInfo.loadJSON(3,saveLoadNew);
                 startActivity(new Intent(SaveLoadActivity.this, PlayActivity.class));
             }
@@ -69,6 +75,7 @@ public class SaveLoadActivity extends BaseActivity {
         saveFiveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent.putExtra("save", "4");
                 jsonInfo.loadJSON(4,saveLoadNew);
                 startActivity(new Intent(SaveLoadActivity.this, PlayActivity.class));
             }
@@ -76,6 +83,7 @@ public class SaveLoadActivity extends BaseActivity {
         saveSixButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                intent.putExtra("save", "5");
                 jsonInfo.loadJSON(5,saveLoadNew);
                 startActivity(new Intent(SaveLoadActivity.this, PlayActivity.class));
             }
