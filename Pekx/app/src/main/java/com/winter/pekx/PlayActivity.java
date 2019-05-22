@@ -72,7 +72,7 @@ public class PlayActivity extends BaseActivity {
 //        backgroundView.setImageResource(resID);
 
         String text;
-        text = sceneData[6] + sceneData[7] + sceneData[8];
+        text = "You wake to the dawn of a new day with a sore back. Guess I can’t be too ungrateful, it’s my only valuable thing left."+ " You look over your cart and think for a minute."+" I guess I should start moving I have to get to the town and try to make some money off the stupid humans. ";
         storyText.setText(text);
 
     }
